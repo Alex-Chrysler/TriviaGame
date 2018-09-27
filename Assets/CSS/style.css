@@ -1,0 +1,119 @@
+body{
+   background-image: url("https://vignette.wikia.nocookie.net/newdcmovieuniverse/images/c/ce/Gcskyline.png/revision/latest?cb=20160223181953");
+   background-size: cover;
+   background-repeat: no-repeat;
+   color:white;
+}
+
+@font-face{
+    src: url(fonts/Gotham\ Nights\ Bold.otf),
+        url(fonts/Gotham\ Nights.otf),
+        url(fonts/Gotham\ Nights\ Bold\ Italic.otf);
+         
+    font-family: batmanFont;
+}
+
+@font-face{
+    font-family: justice;
+    src: url(fonts/JUSTICE\ LEAGUE.ttf)
+}
+
+h1{
+    color:yellow;
+    font-family:"justice";
+    text-align: center;
+    font-size: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+#topBox{
+    color:White;
+    text-align: center;
+    font-size: 50px;
+    font-family: "batmanFont";
+}
+
+#start{
+    font-size: 80px;
+    background-image: url(https://i.ebayimg.com/images/g/6TMAAOSw8b1aJaGY/s-l300.jpg);
+    border-radius: 70%;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    color:white;
+    background-position:center;
+    background-size:cover;
+    height: 250px;
+    margin-top: 30px;
+    font-family: "justice";
+    
+}
+
+#timerBox{
+    background-image: url(https://i.pinimg.com/originals/9a/66/67/9a6667ccf6d2dc079572fbb15445358e.jpg);
+    width: 10%;
+    margin-left: 5%;
+    height: 200px;
+    color: purple;
+    position: fixed;
+    border-radius: 80%;
+    background-size: 50%;
+    background-size:cover;
+    text-align: center;
+    font-size: 65px;
+    font-family: "batmanFont";
+    padding-top: 115px;
+    background-position-y: -30px;
+    
+}
+
+h3{
+    color: yellow;
+    font-family: "justice";
+    text-align: center;
+    font-size: 60px;
+}
+
+#questionBox{
+    color:white;
+    font-family: "batmanFont";
+    text-align: center;
+    font-size: 50px;
+    background-color: grey;
+    width:80%;
+    margin-left:10%;
+}
+.ansBtn{
+
+    height: 25px;
+    width: 25px;
+    background-color:yellow;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#done{
+    background-image: url(https://media1.tenor.com/images/f8f69b9a6f5f29172f8483d836c8db97/tenor.gif?itemid=6219654);
+    background-size: cover;
+    width: 33.3%;
+    margin-left:33.3%;
+    margin-right:33.3%;
+    height: 200px;
+    background-position-y: -30px;
+    font-family:"justice";
+    font-size:50px;
+    border-radius: 70%;
+
+}
+
+h4{
+    font-family: "batmanFont";
+    font-size: 90px;
+    color: yellow;
+    text-align: center;
+
+}
